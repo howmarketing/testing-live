@@ -1,6 +1,7 @@
-<video controls src="./public-assets/transaction-app-demo.mov" title="Title"></video>
 
-![demo](./public-assets/transaction-app-demo.mov)
+
+https://github.com/user-attachments/assets/1b3e5780-9be5-4d33-a87e-5a501dfa91a6
+
 
 ![preview](./public-assets/image-1.png)
 
