@@ -1,3 +1,7 @@
+![alt text](image-3.png)
+![alt text](image-2.png)
+![alt text](image-1.png)
+
 # Transaction Submission Application
 
 A simple web application that allows users to submit a monetary transaction. The application consists of a front-end built with React and a back-end using Node.js and Express.
