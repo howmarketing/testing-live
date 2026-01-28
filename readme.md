@@ -57,6 +57,7 @@ Run all apps in development mode:
 ```bash
 pnpm dev
 ```
+![alt text](image.png)
 
 Run a specific app:
 
