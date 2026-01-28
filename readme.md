@@ -1,6 +1,8 @@
 <video controls src="./public-assets/transaction-app-demo.mov" title="Title"></video>
 
-![alt text](./public-assets/image-1.png)
+![demo](./public-assets/transaction-app-demo.mov)
+
+![preview](./public-assets/image-1.png)
 
 # Transaction Submission Application
 
