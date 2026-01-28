@@ -76,6 +76,8 @@ Build all apps:
 pnpm build
 ```
 
+![build.png](./build.png)
+
 Build a specific app:
 
 ```bash
