@@ -4,6 +4,15 @@ A simple web application that allows users to submit a monetary transaction. The
 
 > The application allows users to input the transaction amount and a description, and upon submission, it should display the transaction details on the front-end.
 
+### Running the Application
+
+```bash
+- pnpm dev - Start both apps in development mode
+- pnpm build - Build the frontend (backend doesn't have a build step)
+- pnpm turbo dev --filter=@transaction/frontend - Run only frontend
+- pnpm turbo dev --filter=@transaction/backend - Run only backend
+```
+
 ## Monorepo Structure
 
 This project uses [Turborepo](https://turborepo.dev) for monorepo management with pnpm workspaces.
@@ -73,14 +82,7 @@ Build a specific app:
 pnpm turbo build --filter=@transaction/frontend
 ```
 
-### 
 
-```bash
-- pnpm dev - Start both apps in development mode
-- pnpm build - Build the frontend (backend doesn't have a build step)
-- pnpm turbo dev --filter=@transaction/frontend - Run only frontend
-- pnpm turbo dev --filter=@transaction/backend - Run only backend
-```
 
 ## Apps
 
