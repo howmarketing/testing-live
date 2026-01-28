@@ -1,6 +1,6 @@
-# Transaction Backend
+# @transaction/backend
 
-A simple Express.js API for managing transactions.
+Express.js API for managing transactions.
 
 ## Tech Stack
 
@@ -48,28 +48,16 @@ Retrieve all transactions.
 ]
 ```
 
-## Getting Started
+## Development
 
-### Prerequisites
-
-- Node.js (v16 or higher)
-
-### Installation
+From the monorepo root:
 
 ```bash
-npm install
-```
+# Run this app only
+pnpm turbo dev --filter=@transaction/backend
 
-### Running the Server
-
-**Development mode (with auto-reload):**
-```bash
-npm run dev
-```
-
-**Production mode:**
-```bash
-npm start
+# Or run all apps
+pnpm dev
 ```
 
 The server will start on `http://localhost:3001`.

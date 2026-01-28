@@ -1,6 +1,7 @@
 {
-  "name": "transaction-backend",
+  "name": "@transaction/backend",
   "version": "1.0.0",
+  "private": true,
   "description": "Simple transaction API",
   "main": "server.js",
   "scripts": {

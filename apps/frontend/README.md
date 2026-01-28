@@ -1,6 +1,6 @@
-# Transaction Frontend
+# @transaction/frontend
 
-A React application for managing transactions, built with Vite.
+React application for managing transactions, built with Vite.
 
 ## Tech Stack
 
@@ -8,35 +8,24 @@ A React application for managing transactions, built with Vite.
 - Vite 5
 - CSS
 
-## Getting Started
+## Development
 
-### Prerequisites
-
-- Node.js (v16 or higher)
-
-### Installation
+From the monorepo root:
 
 ```bash
-npm install
-```
+# Run this app only
+pnpm turbo dev --filter=@transaction/frontend
 
-### Running the App
-
-**Development mode:**
-```bash
-npm run dev
+# Or run all apps
+pnpm dev
 ```
 
 The app will be available at `http://localhost:5173`.
 
-**Build for production:**
-```bash
-npm run build
-```
+## Build
 
-**Preview production build:**
 ```bash
-npm run preview
+pnpm turbo build --filter=@transaction/frontend
 ```
 
 ## Project Structure
