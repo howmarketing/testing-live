@@ -25,3 +25,5 @@ dist/
 
 # History
 .history/
+
+pnpm-lock.yaml
