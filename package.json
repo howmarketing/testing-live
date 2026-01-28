@@ -1,0 +1,15 @@
+{
+  "name": "transaction-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "packageManager": "pnpm@9.15.0",
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "start": "turbo start",
+    "lint": "turbo lint"
+  },
+  "devDependencies": {
+    "turbo": "^2.3.0"
+  }
+}
