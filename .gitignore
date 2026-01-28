@@ -27,3 +27,5 @@ dist/
 .history/
 
 pnpm-lock.yaml
+
+.claude/
