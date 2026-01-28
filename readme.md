@@ -1,6 +1,6 @@
-![alt text](image-3.png)
-![alt text](image-2.png)
-![alt text](image-1.png)
+<video controls src="./public-assets/transaction-app-demo.mov" title="Title"></video>
+
+![alt text](./public-assets/image-1.png)
 
 # Transaction Submission Application
 
@@ -61,7 +61,7 @@ Run all apps in development mode:
 ```bash
 pnpm dev
 ```
-![alt text](image.png)
+![alt text](./public-assets/image.png)
 
 Run a specific app:
 
@@ -81,7 +81,7 @@ Build all apps:
 pnpm build
 ```
 
-![build.png](./build.png)
+![build.png](./public-assets/build.png)
 
 Build a specific app:
 
